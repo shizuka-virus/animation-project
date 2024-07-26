@@ -1,0 +1,534 @@
+@font-face {
+    font-family: lastica;
+    src: url(./fonnts.com-Lastica.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(./Roboto-Medium.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html body{
+    width: 100vw;
+    height: 100vh;
+    padding: 0.1%;
+    overflow-x: hidden;
+}
+/* body #main{
+    width: 100%;
+    height: 100%;
+    padding: 0.1%;
+    overflow-x: hidden;
+} */
+#main #page1{
+    width: 100vw;
+    height: 100vh;
+    background-color: #232a58;
+    position: relative;
+    pointer-events: none;
+}
+#page1 #nav{
+    width: 100%;
+    height: 15%;
+    background:linear-gradient(to left,#232a58,#3d215e 70%);
+    padding: 0.1%;
+    display: flex;
+    position: relative;
+}
+
+#nav #image1{
+    width:5% ;
+    height: 80%;
+    margin-left: 5%;
+    margin-top: 0.4vw;
+   
+}
+#image1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#nav h1{
+    padding-left: 2vw;
+    font-size: 1vw;
+    position: absolute;
+    top: 2.5vw;
+    right: 91.9vw;
+    font-family: lastica;
+    color: white;
+}
+#nav h2{
+    font-family: lastica;
+    font-size: 1.2vw;
+    padding-top: 2.4vw;
+    padding-left: 1vw;
+    color: white;
+}
+#page1 #content{
+    width: 60%;
+    height: 85%;
+    background:linear-gradient(to left,#232a58 ,#3d215e 20%);
+}
+#content h1{
+    font-family: lastica;
+    padding-left: 15vw;
+    padding-top: 1vw;
+    color: white;
+
+}
+#content h2{
+    font-family: roboto;
+    font-size: 2.5vw;
+    font-weight: 300;
+    padding-left: 15vw;
+    padding-top: 2vw;
+    color: white;
+}
+#page1 #image{
+    width: 20%;
+    height: 70%;
+    background-color: #232a58;
+    position: absolute;
+    left: 70%;
+    top: 20%;
+}
+#image img{
+    width: 100%;
+    height: 100%;
+}
+#main #page2{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to left,#232a58 40% ,#3d215e 60%);
+    position: relative;
+}
+#page2 h1{
+    font-family: lastica;
+    font-size: 1.6vw;
+    padding-top: 8vw;
+    padding-left: 12vw;
+    color: #a33997;
+}
+#page2 #image{
+    width: 30%;
+    height: 40%;
+    background-color:#3d215e ;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+#image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#page2 #paragraph{
+    width: 30%;
+    height: 40%;
+    background-color: #232a58;
+    position: absolute;
+    left: 55%;
+    top: 30%;
+}
+#paragraph p{
+    padding-left: 2vw;
+    font-family: roboto;
+    color: white;
+
+}
+#main #page3{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to left,#232a58 40% ,#3d215e 60%);
+
+}
+#page3 #top{
+    width: 100%;
+    height: 40%;
+    background:linear-gradient(to left,#232a58 40% ,#3d215e 60%);
+}
+#top h1{
+    font-size: 2.4vw;
+    font-family: lastica;
+    padding-top: 3vw;
+    padding-left: 10vw;
+    color: white;
+}
+#top p{
+    font-size: 1.5vw;
+    font-family: roboto;
+    line-height: 2vw;
+    padding-left: 10vw;
+    color: white;
+
+}
+#top #para{
+    padding-top: 2vw;
+}
+#page3 #blocks{
+    width: 100%;
+    height: 50%;
+    background:linear-gradient(to left,#232a58 40% ,#3d215e 60%);
+    display: flex;
+    gap: 3vw;
+    justify-content: center;
+    align-items: center;
+}
+#blocks .services{
+    width: 20%;
+    height: 70%;
+    background-color: white;
+}
+.services #head{
+    font-family: lastica;
+    font-size: 1.7vw;
+    padding-top: 3vw;
+    padding-left: 5vw;
+    color: #a33997;
+}
+.services #head1{
+    font-family: lastica;
+    font-size: 1.7vw;
+    padding-top: 3vw;
+    padding-left: 7vw;
+    color: #a33997;
+}
+.services #head2{
+    font-family: lastica;
+    font-size: 1.7vw;
+    padding-top: 3vw;
+    padding-left: 2.7vw;
+    color: #a33997;
+}
+.services  h1{
+    font-family: lastica;
+    font-size: 1.7vw;
+    padding-top: 0.4vw;
+    padding-left: 4vw;
+    color: #a33997;
+}
+.services  #head3{
+    font-family: lastica;
+    font-size: 1.7vw;
+    padding-top: 0.4vw;
+    padding-left: 7vw;
+    color: #a33997;
+}
+.services button{
+    width: 50%;
+    height: 20%;
+    font-size: 1.2vw;
+    margin-top: 2vw;
+    margin-left:5vw ;
+    border: 0;
+    border-radius: 1vw;
+    background-color:#3d215e ;
+    color: white;
+}
+#main #page4{
+    width: 100vw;
+    height: 100vh;
+    /* background-color:pink; */
+    background:linear-gradient(to left,#232a58 40% ,#3d215e 60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+#page4 #content{
+    width: 40%;
+    height: 60%;
+    background:linear-gradient(to left,#232a58 10% ,#3d215e 70%);
+    border: 0.1vw solid white;
+}
+#content #heading{
+    font-size: 2vw;
+    font-family: lastica;
+    padding-top: 3vw;
+    padding-left: 3vw;
+}
+#content h3{
+    font-family: lastica;
+    font-size: 2vw;
+    padding-left: 3vw;
+    color: white;
+}
+#page4 p{
+    font-size: 1.4vw;
+    font-family: roboto;
+    padding-left:3vw ;
+    color: white;
+}
+#content #para{
+    padding-top: 2vw;
+}
+#content button{
+    width: 25%;
+    height: 13%;
+    font-size: 1vw;
+    margin-top: 3vw;
+    margin-left:3vw ;
+    border: 0;
+    border-radius: 1vw;
+    background-color:#a33997 ;
+    color: white;
+}
+#page4 #imge{
+    width: 25vw;
+    height: 25vw;
+    border: 0;
+    border-radius:50%;
+    background-color: aqua;
+}
+#imge video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 50%;
+}
+#main #page5{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to left,#232a58 40% ,#3d215e 60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+#page5 #content1{
+    width: 40%;
+    height: 60%;
+    background:linear-gradient(to left,#232a58 10% ,#3d215e 70%);
+    border: 0.1vw solid white;
+}
+#content1 #heading1{
+    font-size: 2vw;
+    font-family: lastica;
+    padding-top: 3vw;
+    padding-left: 3vw;
+}
+#content1 h3{
+    font-family: lastica;
+    font-size: 2vw;
+    padding-left: 3vw;
+    color: white;
+}
+#page5 p{
+    font-size: 1.4vw;
+    font-family: roboto;
+    padding-left:3vw ;
+    color: white;
+}
+#content1 #parah{
+    padding-top: 2vw;
+}
+#content1 button{
+    width: 25%;
+    height: 13%;
+    font-size: 1vw;
+    margin-top: 3vw;
+    margin-left:3vw ;
+    border: 0;
+    border-radius: 1vw;
+    background-color:#a33997 ;
+    color: white;
+}
+#page5 #imge1{
+    width: 25vw;
+    height: 25vw;
+    border: 0;
+    border-radius:50%;
+    background-color: aqua;
+}
+#imge1 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#main #page6{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to left,#232a58 40% ,#3d215e 60%);
+    padding: 0.1%;
+}
+#page6 #head4{
+       padding-top: 4vw;
+}
+#page6 h4{
+    font-size: 2vw;
+    font-family: lastica;
+    padding-left: 18vw;
+    color: white;
+}
+#page6 #project{
+    width: 100%;
+    height:50% ;
+    background:linear-gradient(to left,#232a58 40% ,#3d215e 60%);
+    margin-top: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+#project .sample{
+    width: 30%;
+    height: 90%;
+}
+
+.sample img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1vw;
+    transition:all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+
+}
+.sample img:hover{
+    scale:1.06;
+}
+
+#page6 #description{
+    width: 100%;
+    height: 20%;
+    background:linear-gradient(to left,#232a58 40% ,#3d215e 60%);
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+}
+#description .detail{
+    width: 30%;
+    height: 50%;
+}
+.detail p{
+    font-size:1.1vw;
+    font-family: roboto;
+    color: white;
+}
+#main #page7{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to left,#232a58 40% ,#3d215e 60%);
+    padding: 0.1%;
+    display: flex;
+    overflow: hidden;
+}
+#page7 #left{
+    width:50%;
+    height: 100%;
+    padding: 0.1%;
+}
+#left h5{
+    font-size: 2.5vw;
+    font-family: lastica;
+    padding-left: 7vw;
+    color: white;
+}
+#left #head5{
+    padding-top: 2vw;
+}
+#left #imag{
+    width: 60%;
+    height: 55%;
+    margin-top: 10%;
+    margin-left: 7vw;
+}
+#imag img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#page7 #right1{
+    width: 50%;
+    height: 100%;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+     display: flex;
+     flex-direction:column;
+     gap:2vw;
+}
+#right1 .right{
+    width: 73%;
+    height: 30%;
+    border: 0.1vw solid white;
+}
+.right p{
+    font-size: 1vw;
+    color: white;
+    font-family: roboto;
+    padding-left: 2vw;
+    text-align: justify;
+}
+.right #space{
+    padding-top: 3vw;
+}
+.right #name{
+    padding-top: 2vw;
+    color: #a33997;
+}
+#main #page8{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to left,#232a58 40% ,#3d215e 60%);
+    display: flex;
+}
+#page8 #left1{
+    width: 50%;
+    height: 100%;
+}
+#left1 h3{
+    padding-top: 7vw;
+    padding-left: 10vw;
+    font-size: 2vw;
+    font-family: roboto;
+    color: white;
+}
+#left1 #last{
+    padding-top: 4vw;
+    padding-left: 10vw;
+    font-family: lastica;
+    font-size: 1.3vw;
+    font-weight: 900;
+    color: white;
+}
+#left1 p{
+    font-size: 1.3vw;
+    color: white;
+    padding-top: 1vw;
+    padding-left: 10vw;
+}
+#left1 #icon{
+    width: 45%;
+    height: 13% ;
+    margin-top: 8vw;
+    margin-left: 10vw;
+    border: 0.1vw solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+#icon h6{
+    font-family: lastica;
+    color: white;
+}
+#icon i{
+    color: white;
+}
+#page8 #right1{
+    width: 25%;
+    height: 80%;
+    margin-top: 4vw;
+    margin-left: 5vw;
+}
+#right1 img{
+    width: 100%;
+    height:100% ;
+    object-fit: cover;
+}
